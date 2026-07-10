@@ -1,9 +1,9 @@
 ## Question 1 : Sort a dictionary by its values.
-from operator import itemgetter
-my_dict = {'a': 3, 'b': 1, 'c': 2}
-sorted_dict = dict(sorted(my_dict.items(), key=itemgetter(1)))
+# from operator import itemgetter
+# my_dict = {'a': 3, 'b': 1, 'c': 2}
+# sorted_dict = dict(sorted(my_dict.items(), key=itemgetter(1)))
 
-print(sorted_dict)
+# print(sorted_dict)
 
 
 ## Question 2 : Count the frequency of each element in a list without using collections.Counter.
